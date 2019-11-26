@@ -1,0 +1,24 @@
+.entry-featured-image-url {
+	margin-bottom: 15px !important;
+}
+.et_pb_post {
+	position: relative;
+}
+.published {
+	position: absolute;
+	top: -9px;
+	left: 11px;
+	background: #333;
+	color: #fff;
+	padding: 8px;
+	font-size: 25px;
+	width: 65px;
+	line-height: 1em;
+	border: 1px double #fff;
+}
+.post-meta a {
+	display: block;
+	margin-top: -18px;
+	background: #fff;
+	position: relative;
+}
