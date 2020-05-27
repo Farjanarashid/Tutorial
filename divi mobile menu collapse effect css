@@ -1,8 +1,7 @@
-/*for mobile menu collapse*/
-#et_mobile_nav_menu .menu-item-has-children .sub-menu {
+.et_mobile_menu .menu-item-has-children .sub-menu {
 	display: none !important;
 }
- .arrow_plus::after {
+.arrow_plus::after {
 	content: "\4c";
 	font-family: ETmodules;
 	color: #fff;
@@ -16,6 +15,6 @@
 .arrow_plus.open::after {
 	content: "\4d";
 }
-#et_mobile_nav_menu .menu-item-has-children .sub-menu.open {
+.et_mobile_menu .menu-item-has-children .sub-menu.open {
 	display: block !important;
 }
