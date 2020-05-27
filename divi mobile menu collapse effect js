@@ -1,7 +1,7 @@
 <script type="text/javascript">
 (function($) { 
      function setup_collapsible_mobile_submenus() {
-		jQuery("#mobile_menu .menu-item-has-children").prepend("<span class='arrow_plus'></span>");
+		jQuery(".et_mobile_menu .menu-item-has-children").prepend("<span class='arrow_plus'></span>");
 	jQuery(".arrow_plus").click(function(){
 		jQuery(this).toggleClass("open");
 		jQuery(this).next().next("ul.sub-menu").toggleClass("open");
