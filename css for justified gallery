@@ -1,1 +1,30 @@
+.pswp__bg {
+	background: rgba(0,0,0,.7) !important;
+}
+.pswp__top-bar {
+	background: transparent !important;
+}
+.pswp__button--arrow--left::before, .pswp__button--arrow--right::before {
+	background-color: transparent !important;
+}
+button.pswp__button--close:hover {
+	background-color: transparent !important;
+}
 
+
+/*------ only for divi theme------------*/
+.pswp__button--arrow--right::before, .pswp__button--arrow--left::before{
+	color: #fff;
+	font-family: ETmodules;
+	font-size: 50px;
+	background: none !important;
+	top: 0px !important;
+}
+.pswp__button--arrow--right::before {
+	right: 18px !important;
+	content: "\35" !important;
+}
+.pswp__button--arrow--left::before {
+	right: 18px !important;
+	content: "\34" !important;
+}
