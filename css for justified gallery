@@ -10,7 +10,9 @@
 button.pswp__button--close:hover {
 	background-color: transparent !important;
 }
-
+.dgwt-jg-caption {
+	display: none !important;
+}
 
 /*------ only for divi theme------------*/
 .pswp__button--arrow--right::before, .pswp__button--arrow--left::before{
