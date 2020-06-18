@@ -13,6 +13,15 @@ button.pswp__button--close:hover {
 .dgwt-jg-caption {
 	display: none !important;
 }
+.pswp__zoom-wrap {
+	pointer-events: none;
+}
+@media all and (max-width: 767px) {
+.dgwt-jg-gallery .entry-visible {
+	pointer-events: none;
+}
+}
+
 
 /*------ only for divi theme------------*/
 .pswp__button--arrow--right::before, .pswp__button--arrow--left::before{
